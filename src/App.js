@@ -1,17 +1,11 @@
-import Calculator from './Components/Calculator';
-// import RegistrationForm from './Components/RegistrationForm';
-
-// import ClockList from './Components/ClockList';
+import Dashboard from './Components/Dashboard';
+import Profile from './Components/Profile';
 
 function App() {
-    // const quantities = [1, 2, 3];
     return (
         <div>
-            <Calculator />
-            {/* <RegistrationForm /> */}
-            {/* <Form /> */}
-            {/* <ClockList quantities={quantities} /> */}
-            {/* <Counter /> */}
+            <Dashboard />
+            <Profile />
         </div>
     );
 }
